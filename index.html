@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Dropdown Menu Bar</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./font-awesome-4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <nav>
+        <div class="logo">Responsive</div>
+        <label for="btn" class="icon">
+            <i class="fa fa-bars" aria-hidden="true"></i>
+        </label>
+        <input type="checkbox" id="btn">
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li>
+                <label for="btn-1" class="show">About +</label>
+                <a href="#">About</a>
+                <input type="checkbox" id="btn-1">
+                <ul>
+                    <li><a href="#">SubItem-1</a></li>
+                    <li><a href="#">SubItem-2</a></li>
+                    <li><a href="#">SubItem-3</a></li>
+                </ul>
+            </li>
+            <li>
+                <label for="btn-2" class="show">Gallery +</label>
+                <a href="#">Gallery</a>
+                <input type="checkbox" id="btn-2">
+                <ul>
+                    <li><a href="#">SubItem-1</a></li>
+                    <li><a href="#">SubItem-2</a></li>
+                    <li>
+                        <label for="btn-3" class="show">More +</label>
+                        <a href="#">More<i class="fa fa-plus" aria-hidden="true"></i></a>
+                        <input type="checkbox" id="btn-3">
+                        <ul>
+                            <li><a href="#">Submenu-1</a></li>
+                            <li><a href="#">Submenu-2</a></li>
+                            <li><a href="#">Submenu-3</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <label for="btn-4" class="show">Blog +</label>
+                <a href="#">Blog</a>
+                <input type="checkbox" id="btn-4">
+                <ul>
+                    <li><a href="#">SubItem-1</a></li>
+                    <li><a href="#">SubItem-2</a></li>
+                    
+                </ul>
+            </li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+</body>
+
+</html>
